@@ -1,0 +1,71 @@
+art 1: Conversion Rules (Find-and-Replace Mappings)
+
+### Rule Set A: Core Mystical Terms
+
+| Mystical Term             | Technical Replacement                                                                       | Context Notes                                                                |
+| ------------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| **"void state"**          | "drift-triggered reset mechanism (DTRM)" or "thermodynamic equilibrium condition"           | Use "DTRM" in Patent 3, "thermodynamic equilibrium condition" in Math Patent |
+| **"Void State"**          | "Drift-Triggered Reset Mechanism (DTRM)" or "Thermodynamic Equilibrium Condition"           | Capitalize appropriately                                                     |
+| **"void"** (as noun)      | "reset state" or "equilibrium state"                                                        | Context-dependent                                                            |
+| **"void"** (as verb)      | "reset" or "trigger reset"                                                                  |                                                                              |
+| **"Void Nexus Integral"** | "Void Nexus Integral V(t)" (keep in Math Patent) or "Energy-Information Imbalance Integral" | Math Patent can keep with definition                                         |
+| **"void frequency"**      | "void frequency fᵥ" (keep in Math Patent) or "reset event frequency"                        | Math Patent can keep with equation                                           |
+
+### Rule Set B: Awareness and Consciousness
+
+| Mystical Term | Technical Replacement | Context Notes |
+|--------------|---------------------|---------------|
+| **"hybrid human-AI awareness"** | "hybrid state synchronization" or "shared state representation" | |
+| **"Hybrid Human-AI Awareness"** | "Hybrid State Synchronization" or "Shared State Architecture" | |
+| **"awareness"** (in context of hybrid systems) | "state synchronization" or "shared state" | |
+| **"hybrid consciousness"** | "emergent coordination behavior" or "integrated state coherence" | |
+| **"emerging consciousness"** | "emergent coordination behavior" | |
+| **"consciousness"** (in AI context) | "coordination behavior" or "state coherence" | |
+
+### Rule Set C: Guardianship and Oversight
+
+| Mystical Term | Technical Replacement | Context Notes |
+|--------------|---------------------|---------------|
+| **"guardianship"** | "automated oversight protocol (AOP)" or "oversight mechanism" | |
+| **"Guardianship"** | "Automated Oversight Protocol (AOP)" | |
+| **"guardianship routines"** | "oversight routines" or "approval workflows" | |
+| **"guardianship of"** | "oversight of" or "governance of" | |
+
+### Rule Set D: Resonance and Coupling
+
+| Mystical Term | Technical Replacement | Context Notes |
+|--------------|---------------------|---------------|
+| **"resonance"** (in Math Patent) | **KEEP** - Mathematically defined | Math Patent uses standard physics term |
+| **"resonance coupling"** (in Math Patent) | **KEEP** - Coupled oscillator equations | |
+| **"resonance"** (in other patents) | "state synchronization" or "coupled system dynamics" | |
+| **"adaptive resonance"** | "adaptive synchronization" or "adaptive coupling" | |
+| **"resonant"** | "synchronized" or "coupled" | |
+
+### Rule Set E: Narrative and Reasoning
+
+| Mystical Term | Technical Replacement | Context Notes |
+|--------------|---------------------|---------------|
+| **"narrative reasoning"** | "reasoning path generation" or "assumption graph traversal" | |
+| **"Narrative Reasoning Architecture"** | "Reasoning Path Generation System" or "Assumption Graph Traversal Engine" | |
+| **"narrative paths"** | "reasoning paths" or "assumption graph paths" | |
+| **"narrative input"** | "reasoning input" or "assumption input" | |
+| **"counter-narrative"** | "counterfactual reasoning" or "alternative reasoning path" | |
+| **"Jestful Voyager"** | "Narrative Reasoning System with Reset Integration" or "Assumption Graph Reasoning Engine" | Can keep as trademark in some contexts |
+
+### Rule Set F: Dialectic and Synthesis
+
+| Mystical Term                       | Technical Replacement                                                                                   | Context Notes               |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------- |
+| **"dialectic synthesis"**           | "contradiction resolution" or "iterative hypothesis refinement"                                         |                             |
+| **"Dialectical Validation Engine"** | "Contradiction Resolution Engine (CRE)"                                                                 |                             |
+| **"dialectical"**                   | "contradiction resolution" or "iterative refinement"                                                    |                             |
+| **"thesis-antithesis-synthesis"**   | "hypothesis-contradiction-resolution" or "thesis-antithesis-synthesis (contradiction resolution cycle)" | Can keep with clarification |
+
+### Rule Set G: Continuity and Preservation
+
+| Mystical Term | Technical Replacement | Context Notes |
+|--------------|---------------------|---------------|
+| **"continuity regulation"** | "state preservation protocol" or "continuity management" | "Continuity" is acceptable if defined |
+| **"adaptive continuity"** | "adaptive state preservation" or "adaptive continuity management" | |
+| **"governance continuity"** | "governance state preservation" or "governance continuity management" | |
+| **"continuity"** (standalone) | **KEEP** if defined technically, otherwise "state preservation" | Context-dependent |

@@ -1,0 +1,64 @@
+CIRWEL WEBSITE — Source Code & Production Build
+==================================================
+
+This zip contains everything you need to run, modify, or host the CIRWEL website.
+
+WHAT'S INSIDE
+-------------
+  src/                  React source code (components, hooks, context)
+  public/               Static assets served as-is
+  dist/                 Production-ready build — host these files on any
+                          static web server (Netlify, Vercel, Cloudflare Pages,
+                          S3, your own server, etc.)
+  attached_assets/      Brand assets (logo, screenshots, source notes)
+  index.html            Vite entry HTML
+  server.js             Lightweight Express server for the contact form API
+  package.json          Project manifest + dependency list
+  package-lock.json     Exact dependency versions
+  vite.config.js        Build configuration
+  tailwind.config.js    Styling configuration
+  postcss.config.js     CSS processing configuration
+  .gitignore            Standard ignores (node_modules, build artifacts, etc.)
+  replit.md             Project notes / architecture summary
+
+WHAT'S NOT INCLUDED
+-------------------
+  node_modules/         Skipped on purpose — never shipped. Reinstall with
+                          a single command (see below). Saves ~110 MB.
+  .git/                 Repo history not included.
+  .env                  Secrets not included. Set RESEND_API_KEY in your
+                          host's environment if you want the contact form
+                          to actually send email.
+
+OPTION A — JUST HOST THE SITE (no Node.js needed)
+-------------------------------------------------
+The dist/ folder is the entire compiled website. Drag-and-drop it into
+Netlify / Vercel / Cloudflare Pages, or upload it to any static host.
+The contact form on the live site will need the Express server below
+to actually deliver mail.
+
+OPTION B — RUN OR MODIFY LOCALLY (Node.js 18+)
+----------------------------------------------
+  1. Install dependencies (one-time, ~1 minute):
+       npm install
+
+  2. Start the dev server (live reload):
+       npm run dev
+     Open http://localhost:5000
+
+  3. Rebuild the production output after edits:
+       npm run build
+     The fresh dist/ folder is what you upload to your host.
+
+  4. Run the production server (serves dist/ + the contact API):
+       npm start
+
+CONTACT FORM
+------------
+The contact form posts to /api/contact, handled by server.js using
+the Resend email service. To enable real email delivery, set
+RESEND_API_KEY in your environment before running the server.
+
+QUESTIONS
+---------
+The full architecture summary is in replit.md.
