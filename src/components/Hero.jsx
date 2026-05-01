@@ -227,7 +227,7 @@ export default function Hero() {
             className="text-lg md:text-xl font-mono font-light tracking-[0.2em] uppercase"
             style={{ color: isDark ? 'rgba(0,212,230,0.6)' : '#0066ff99' }}
           >
-            Information-Theoretic Agent Governance
+            Runtime Governance for Autonomous Agents
           </p>
         </motion.div>
 
@@ -251,7 +251,9 @@ export default function Hero() {
           className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4"
         >
           <motion.a
-            href="mailto:founder@cirwel.org"
+            href="https://github.com/CIRWEL/unitares"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group relative w-full sm:w-auto px-8 py-4 rounded-lg font-semibold text-base sm:text-lg overflow-hidden shadow-lg shadow-cyber-cyan/20 text-center"
             whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(0, 212, 230, 0.4)' }}
             whileTap={{ scale: 0.95 }}
@@ -260,13 +262,13 @@ export default function Hero() {
             <span className="absolute inset-0 bg-gradient-to-r from-cyber-cyan via-cyber-blue to-cyber-magenta opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <span className="relative z-10 text-dark-950 font-bold flex items-center justify-center gap-2">
               <Terminal className="w-5 h-5" />
-              Talk to the Founder
+              Quickstart
             </span>
           </motion.a>
           <motion.a
-            href="#about"
+            href="mailto:founder@cirwel.org"
             className="w-full sm:w-auto px-8 py-4 border rounded-lg font-semibold text-base sm:text-lg transition-all group text-center relative overflow-hidden"
-            style={{ 
+            style={{
               borderColor: 'rgba(0, 212, 230, 0.3)',
               backgroundColor: 'rgba(0, 212, 230, 0.05)'
             }}
@@ -274,30 +276,11 @@ export default function Hero() {
             whileTap={{ scale: 0.95 }}
           >
             <span className="absolute inset-0 bg-gradient-to-r from-cyber-cyan/0 via-cyber-cyan/5 to-cyber-cyan/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-            <span className="relative z-10 text-gray-300 group-hover:text-cyber-cyan transition-colors duration-300">Learn More</span>
+            <span className="relative z-10 text-gray-300 group-hover:text-cyber-cyan transition-colors duration-300">Talk to the Founder</span>
           </motion.a>
         </motion.div>
       </div>
 
-      <motion.div
-        className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 w-full mt-8 sm:mt-12 mb-16 sm:mb-0"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.7, delay: 0.65, ease: [0.25, 0.46, 0.45, 0.94] }}
-      >
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
-          {heroFeatures.map((feature, index) => (
-            <CyberCard 
-              key={feature.title} 
-              icon={feature.icon}
-              title={feature.title}
-              desc={feature.desc}
-              index={index}
-              isDark={isDark}
-            />
-          ))}
-        </div>
-      </motion.div>
 
       {/* Scroll indicator - hidden on mobile to avoid overlap */}
       <motion.div

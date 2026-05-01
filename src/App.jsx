@@ -9,11 +9,9 @@ import About from './components/About'
 import Footer from './components/Footer'
 import CyberBackground from './components/CyberBackground'
 
-const IPPortfolio = lazy(() => import('./components/IPPortfolio'))
 const Platform = lazy(() => import('./components/Patents'))
 const Technology = lazy(() => import('./components/Technology'))
 const StateDiagram = lazy(() => import('./components/StateDiagram'))
-const Industries = lazy(() => import('./components/Industries'))
 const Contact = lazy(() => import('./components/Contact'))
 const PrivacyPolicy = lazy(() => import('./components/PrivacyPolicy'))
 const Compliance = lazy(() => import('./components/Compliance'))
@@ -227,11 +225,7 @@ function HomePage() {
         <SectionDivider />
         <StateDiagram />
         <SectionDivider />
-        <Industries />
-        <SectionDivider />
         <Platform />
-        <SectionDivider />
-        <IPPortfolio />
         <SectionDivider />
         <Contact />
         <SectionDivider />

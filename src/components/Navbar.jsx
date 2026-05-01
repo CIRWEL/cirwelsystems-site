@@ -51,16 +51,12 @@ export default function Navbar() {
         { name: 'Problem', href: '#about' },
         { name: 'Approach', href: '#technology' },
         { name: 'How It Works', href: '#how-it-works' },
-        { name: 'Markets', href: '#industries' },
         { name: 'Product', href: '#platform' },
-        { name: 'IP', href: '#ip' },
         { name: 'Contact', href: '#contact' },
       ]
     : [
         { name: 'Home', href: '/' },
-        { name: 'Patents', href: '/patents' },
         { name: 'Privacy', href: '/privacy' },
-        { name: 'Compliance', href: '/compliance' },
         { name: 'Contact', href: '/#contact' },
       ]
 

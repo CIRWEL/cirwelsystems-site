@@ -109,8 +109,8 @@ export default function Platform() {
     { icon: ShieldCheck, title: 'Circuit Breakers', desc: 'Automatically pauses agents when risk thresholds are breached, preventing harmful behavior before escalation', animationType: 'circuit-breakers' },
     { icon: RefreshCw, title: 'Peer-Assisted Recovery', desc: 'Agents review each other for recovery without human intervention', animationType: 'dialectic-recovery' },
     { icon: Users, title: 'Multi-Agent Fleet', desc: 'Track unlimited agents with independent state, fleet-wide health metrics, and coordinated recovery', animationType: 'multi-agent-fleet' },
-    { icon: Gauge, title: 'Adaptive Control', desc: 'Self-tuning parameters maintain optimal operation as conditions change—no manual calibration needed', animationType: 'adaptive-control' },
-    { icon: Eye, title: 'Anomaly Detection', desc: 'Detect ethical drift, behavioral anomalies, and performance degradation in real-time', animationType: 'anomaly-detection' },
+    { icon: Gauge, title: 'Adaptive Control', desc: 'Calibration adapts as the fleet\'s telemetry shifts, reducing manual tuning.', animationType: 'adaptive-control' },
+    { icon: Eye, title: 'Anomaly Detection', desc: 'Detect behavioral drift, performance regressions, and unexpected state transitions in real time.', animationType: 'anomaly-detection' },
     { icon: Database, title: 'Knowledge Graph', desc: 'Captures discoveries and patterns across agents, enabling cross-agent learning and improvement', animationType: 'knowledge-graph' },
     { icon: Network, title: 'MCP Integration', desc: 'Standard Model Context Protocol for seamless integration with Cursor, Claude Desktop, VS Code', animationType: 'mcp-integration' },
     { icon: Cpu, title: 'Local-First', desc: 'All data stored locally—no cloud dependencies, sub-millisecond latency, complete privacy', animationType: 'local-first' },
@@ -118,8 +118,8 @@ export default function Platform() {
 
   const stats = [
     { value: '<1ms', label: 'Decision Latency' },
-    { value: '2,500+', label: 'Agents Tracked' },
-    { value: '94K+', label: 'Events Processed' },
+    { value: '2,500', label: 'Agents Tracked' },
+    { value: '94K', label: 'Events Processed' },
     { value: '0', label: 'Cloud Dependencies' },
   ]
 
@@ -140,13 +140,13 @@ export default function Platform() {
             THE PRODUCT
           </span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            <span className="text-gradient-cyber">
-              <AnimatedCounter target={42} />+
-            </span> Production-Ready
+            <span className="text-gradient-cyber">Production-Ready</span>
             <br />MCP Tools
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            42 tools covering state tracking, circuit breaking, audit trails, anomaly detection, and multi-agent coordination. Sub-millisecond latency, zero cloud dependencies, local-first by design.
+            State tracking, circuit breakers, audit trails, anomaly detection,
+            and multi-agent coordination — exposed as MCP tools. Sub-millisecond
+            latency, zero cloud dependencies, local-first by design.
           </p>
         </motion.div>
 
