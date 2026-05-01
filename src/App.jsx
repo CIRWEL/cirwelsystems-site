@@ -10,7 +10,6 @@ import Footer from './components/Footer'
 import CyberBackground from './components/CyberBackground'
 import GlitchText from './components/GlitchText'
 
-const IPPortfolio = lazy(() => import('./components/IPPortfolio'))
 const Platform = lazy(() => import('./components/Patents'))
 const Technology = lazy(() => import('./components/Technology'))
 const StateDiagram = lazy(() => import('./components/StateDiagram'))
@@ -233,8 +232,6 @@ function HomePage() {
         <StateDiagram />
         <SectionDivider />
         <Platform />
-        <SectionDivider />
-        <IPPortfolio />
         <SectionDivider />
         <Contact />
         <SectionDivider />
