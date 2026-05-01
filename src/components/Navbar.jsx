@@ -52,10 +52,12 @@ export default function Navbar() {
         { name: 'Approach', href: '#technology' },
         { name: 'How It Works', href: '#how-it-works' },
         { name: 'Product', href: '#platform' },
+        { name: 'IP', href: '#ip' },
         { name: 'Contact', href: '#contact' },
       ]
     : [
         { name: 'Home', href: '/' },
+        { name: 'Patents', href: '/patents' },
         { name: 'Privacy', href: '/privacy' },
         { name: 'Contact', href: '/#contact' },
       ]

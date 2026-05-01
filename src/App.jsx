@@ -8,7 +8,9 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Footer from './components/Footer'
 import CyberBackground from './components/CyberBackground'
+import GlitchText from './components/GlitchText'
 
+const IPPortfolio = lazy(() => import('./components/IPPortfolio'))
 const Platform = lazy(() => import('./components/Patents'))
 const Technology = lazy(() => import('./components/Technology'))
 const StateDiagram = lazy(() => import('./components/StateDiagram'))
@@ -78,9 +80,14 @@ function InitialLoader() {
       >
         <div className="flex items-center gap-3 mb-6">
           <img src="/logo.webp" alt="CIRWEL" className="w-12 h-12 rounded-lg" />
-          <span className={`text-xl font-bold tracking-tight ${isDark ? 'text-white' : 'text-gray-900'}`}>
+          <GlitchText
+            glitchOnLoad
+            glitchOnHover={false}
+            duration={600}
+            className={`text-xl font-bold tracking-tight ${isDark ? 'text-white' : 'text-gray-900'}`}
+          >
             CIRWEL
-          </span>
+          </GlitchText>
         </div>
         
         <div className={`w-48 h-0.5 rounded-full overflow-hidden ${isDark ? 'bg-dark-800' : 'bg-gray-200'}`}>
@@ -226,6 +233,8 @@ function HomePage() {
         <StateDiagram />
         <SectionDivider />
         <Platform />
+        <SectionDivider />
+        <IPPortfolio />
         <SectionDivider />
         <Contact />
         <SectionDivider />
